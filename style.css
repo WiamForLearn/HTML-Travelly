@@ -1,0 +1,216 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Do Hyeon", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Nav section */
+.main-header {
+  background: #131c27;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+nav {
+  padding: 2rem;
+  display: flex;
+  width: 90%;
+  min-height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  list-style: none;
+}
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Lobster", cursive;
+}
+/* hero section */
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url("./images/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero h3 {
+  padding: 2.5rem;
+}
+.hero button {
+  cursor: pointer;
+  padding: 1.5rem 4rem;
+  background: rgb(118, 118, 212);
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* location section */
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url("./images/jonathan-roger-LY1eyQMFeyo-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.locations-header {
+  width: 90%;
+  margin: auto;
+}
+.locations-header h2 {
+  padding: 2rem 0rem;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+}
+.locations-header p {
+  padding: 5rem 0rem;
+  background: linear-gradient(black, rgb(102, 82, 82));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* benefits section */
+.benefits-header {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.benefits-header h3 {
+  padding: 1rem;
+}
+.benefits .cards {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.benefits .card img {
+  max-width: 15%;
+  margin: 3rem 0rem;
+}
+.benefits .cards .card-head {
+  background: rgb(90, 90, 185);
+}
+.benefits .card {
+  text-align: Center;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1), 0px 20px 20px rgb(0, 0, 0, 0.1);
+  flex: 1 1 25rem;
+  min-height: 30vh;
+  margin: 2rem 5rem;
+}
+.benefits .card h3,
+.benefits .card p {
+  padding: 2rem 1rem;
+}
+/* contact */
+#contact {
+  height: 100vh;
+  background: url("./images/pexels-aleksandar-pasaric-1619569.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact .form-warpper {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+}
+#contact .form-warpper input {
+  margin: 2rem;
+}
+#contact .form-warpper button {
+  cursor: pointer;
+  width: 100%;
+  background: rgb(90, 90, 185);
+  border: none;
+  padding: 1rem;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#contact .form-warpper button:hover {
+  background: rgb(134, 134, 207);
+}
+/* footer */
+footer {
+  color: white;
+  background: rgba(0, 0, 0, 1);
+  min-height: 10vh;
+}
+.footer-wrapper {
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  display: Flex;
+}
+footer h5 {
+  flex: 1 1 40rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 40rem;
+}
