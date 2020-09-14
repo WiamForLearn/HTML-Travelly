@@ -110,12 +110,7 @@ nav ul {
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
 }
-.locations-header p {
-  padding: 5rem 0rem;
-  background: linear-gradient(black, rgb(102, 82, 82));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 /* benefits section */
 .benefits-header {
   background: #343c44;
